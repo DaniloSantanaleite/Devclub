@@ -1,0 +1,16 @@
+*{
+    background-color: bisque;
+}
+
+.quadrado1{
+    background-color: blue;
+    width: 20vw;
+    height: 30vh;
+    font-size: 2em;
+}
+.quadrado2{
+    background-color: blueviolet;
+    width:50%;
+    height:50%;
+    font-size: 1em;
+}
