@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid blue;
+    background: palevioletred;
+}
+
+/*box-sizing: border-box: NÃO DEIXA QUE O TAMANHO DOS ELEMENTOS SEJA ALTERADO MANTENDO ELES COM A CONFIGURAÇÃO DEFINIDA   (MAIS UTILIZADO NAS CONFIGURAÇÕES GERAIS*/
+
+/*box-sizing: CONTENT-box: CADA ALTERAÇÃO SERÁ ADICIONADO AO ELEMENTO FAZENDO COM QUE ELE RECEBÁ O VALOR E AUMENTE DE TAMANHO*/
