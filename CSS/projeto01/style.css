@@ -1,0 +1,33 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 44px 0 144px 76px;
+
+}
+.link-header{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+.button-header{
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.logo-image {
+    width: 568px;
+    height:500px;
+}
