@@ -28,7 +28,7 @@ header{
     line-height: 29px;
     cursor: pointer;
 }
-.logo-image {
+ img{
     width: 568px;
     height:500px;
     margin-left: 125px;
