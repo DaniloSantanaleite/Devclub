@@ -1,0 +1,53 @@
+/*
+POSITION: STATIC - PADRÃO NÃO ACEITA VALORES
+POSITION: FIXED - FIXA O ELEMENTO NA TELA (ELEMENTO FLUTUA)
+POSTION: STICKY - AGI COMO ADESIVO DETERMINANDO UM VALOR ELE FIXA
+POSTION: RELATIVE - FICA RELATIVO A POSIÇÃO INICIL DELE
+POSITION: ABSOLUTE - SE NÃO HOUVER PAI SEMPRE SE REFERêNCIA AO PAI CASO HAJA PAI SERÁ POSICIONADO DE ACORDO COM O PAI 
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 98vw;
+    height: 100vh;
+}
+
+nav{
+    width: 95vw;
+    height: 40px;
+    background-color: #fff000;
+    border-radius: 20px;
+    position: fixed;
+    right: 2%;
+    top: 5px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 10;
+}
+
+section{
+    background-color: blueviolet;
+    width: 98vw;
+    height: 70vh;
+    position: relative;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+}
+.div-son{
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    text-align: center;
+    color: azure;
+    line-height: 50px;
+
+
+}
+
