@@ -1,0 +1,36 @@
+/* 
+:active -> Quando o elemento esrá ativo, ou sej está sendo pressionado;
+
+:visited -> Seleciona o link que foi visitado;
+
+:hover -> Quando o mouse passe em cimaq do elemento;
+
+:checked -> Usado em radio / checkbox / select;
+
+:disabled -> Elemento desabilitado / button / input;
+
+:enabled -> Elemento habilitado;
+
+:focus -> é aplicado quando o elemento recebe um foc, o que pode ocorrer quando o usuário seleciona o elemento;
+
+:read-only -> Seleciona input ou  textarea que são apenas leitura;
+
+:empty -> Elemento que não tem filho.
+
+*/
+
+/*
+:first-child - > O primeiro filho do pai;
+:first-of-type -> 
+*/
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li:first-child{
+    color: red;
+}
