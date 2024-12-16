@@ -4,4 +4,4 @@ const calculate = numero => {
         console.log(`${numero} x ${index} = ${numero * index}`)
 }
 
-calculate(5)
+calculate(10)
