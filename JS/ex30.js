@@ -17,4 +17,3 @@ const cidadoes = [
     },
 ]
 
-console.log(`A media do salário da população é de ${cidadoes.salario / 3}`)
