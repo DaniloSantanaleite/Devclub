@@ -120,3 +120,7 @@ section{
     margin: 15px auto;
     display: block;
 }
+
+b{
+    font-weight: bold;
+}

@@ -31,36 +31,39 @@
             </label>
             <label>
                 Converte <b>para</b>
-                <select>
+                <select id="Select-Currency">
                     <option>
                         US$ Dolar Americano
                     </option>
                     <option>
                         € Euro
                     </option>
+                    <option>
+                        Bitcoin
+                    </option>
                 </select>
             </label>
 
             <label>
               Valor
-              <input placeholder="R$ 10.000,00">
+              <input id="input-real" placeholder="R$ 10.000,00">
             </label>
 
-            <button type="button">Converter</button>
+            <button id="convert-button" type="button">Converter</button>
 
             <section>
                 <div class="currency-container">
                     <img src="./assets/brasil .png" alt="Brasil">
                     <p class="currency-name">Real</p>
-                    <p class="currency-value">R$ 10.000,00</p>
+                    <p class="currency-value" id="real-value-text">R$ 10.000,00</p>
                 </div>
 
                 <img class="arrow-img" src="./assets/Vector.png" alt="">
 
                 <div class="currency-container">
-                    <img src="./assets/estados-unidos .png" alt="Dolar">
-                    <p class="currency-name">Dolár Americano</p>
-                    <p class="currency-value"> US$ 2.000,00</p>
+                    <img id="Currency-img" src="./assets/estados-unidos .png" alt="Dolar">
+                    <p class="currency-name" id="currency-name">Dolár Americano</p>
+                    <p class="currency-value" id="currency-value-text"> US$ 2.000,00</p>
                 </div>
             </section>
 
@@ -68,5 +71,6 @@
         </main>
     </div>
 </body>
+<script src="./index.js"></script>
 
 </html>
