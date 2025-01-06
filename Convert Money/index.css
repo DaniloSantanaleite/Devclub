@@ -12,6 +12,15 @@ boby{
     background-color: #e5e5e5;
 }
 
+#accept{
+    width: 100px;
+    height: 39px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    pointer-events: auto;
+}
+
 .container{
     background-color: #f4f4f4;
     width: 365px;
